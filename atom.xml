@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://Aris2333.github.io</id>
+    <id>https://Yudukimeme.github.io</id>
     <title>神谷家的汐月喵</title>
-    <updated>2021-07-07T10:00:04.505Z</updated>
+    <updated>2021-07-08T07:25:34.513Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://Aris2333.github.io"/>
-    <link rel="self" href="https://Aris2333.github.io/atom.xml"/>
+    <link rel="alternate" href="https://Yudukimeme.github.io"/>
+    <link rel="self" href="https://Yudukimeme.github.io/atom.xml"/>
     <subtitle>随便翻译一点东西</subtitle>
-    <logo>https://Aris2333.github.io/images/avatar.png</logo>
-    <icon>https://Aris2333.github.io/favicon.ico</icon>
+    <logo>https://Yudukimeme.github.io/images/avatar.png</logo>
+    <icon>https://Yudukimeme.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 神谷家的汐月喵</rights>
-    <entry>
-        <title type="html"><![CDATA[DGS]]></title>
-        <id>https://Aris2333.github.io/post/dgs/</id>
-        <link href="https://Aris2333.github.io/post/dgs/">
-        </link>
-        <updated>2021-07-07T09:56:40.000Z</updated>
-        <content type="html"><![CDATA[<p>阿巴阿巴阿巴阿巴</p>
-]]></content>
-    </entry>
 </feed>
