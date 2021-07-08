@@ -1,111 +1,116 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>8/31 | 神谷家的汐月喵</title>
-<link rel="shortcut icon" href="https://Yudukimeme.github.io/favicon.ico?v=1625731054330">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<meta name="description" content="随便翻译一点东西">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Yudukimeme.github.io/favicon.ico?v=1625731165475">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://Yudukimeme.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="8/31 | 神谷家的汐月喵 - Atom Feed" href="https://Yudukimeme.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="墨水已经用完了。如果我写的字露出飞白也要原谅我哦。
-即便如此，艾尔玛，我变成这样，
-即不是因为对音乐绝望了，也不是因为对人生断了念头。
-没有结尾的小说太过无聊。靠着惯性持续的冗长故事一点也不美。
-人生也一定是这样。
-如果我要书写自身结局的故..." />
-    <meta name="keywords" content="ナブナ,だから僕は音楽を辞めた,ヨルシカ" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://Yudukimeme.github.io">
-  <img class="avatar" src="https://Yudukimeme.github.io/images/avatar.png?v=1625731054330" alt="">
-  </a>
-  <h1 class="site-title">
-    神谷家的汐月喵
-  </h1>
-  <p class="site-description">
-    随便翻译一点东西
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://Yudukimeme.github.io">
+        <img class="avatar" src="https://Yudukimeme.github.io/images/avatar.png?v=1625731165475" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://Yudukimeme.github.io">
+        <h1 class="site-title">神谷家的汐月喵</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
         <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              8/31
-            </h2>
-            <div class="post-info">
-              <span>
-                2019-08-24
-              </span>
-              <span>
-                2 min read
-              </span>
-              
-                <a href="https://Yudukimeme.github.io/tag/VPQZSox42/" class="post-tag">
-                  # ナブナ
-                </a>
-              
-                <a href="https://Yudukimeme.github.io/tag/EDgJ87ysU/" class="post-tag">
-                  # だから僕は音楽を辞めた
-                </a>
-              
-                <a href="https://Yudukimeme.github.io/tag/aYlMefY-5/" class="post-tag">
-                  # ヨルシカ
-                </a>
-              
-            </div>
+          
+          <h2 class="post-title">8/31</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-08-24</span>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>墨水已经用完了。如果我写的字露出飞白也要原谅我哦。</p>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://Yudukimeme.github.io/tag/VPQZSox42/">
+                    ナブナ
+                    
+                      ，
+                    
+                  </a>
+                
+                  <a href="https://Yudukimeme.github.io/tag/EDgJ87ysU/">
+                    だから僕は音楽を辞めた
+                    
+                      ，
+                    
+                  </a>
+                
+                  <a href="https://Yudukimeme.github.io/tag/aYlMefY-5/">
+                    ヨルシカ
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <p>墨水已经用完了。如果我写的字露出飞白也要原谅我哦。</p>
 <p>即便如此，艾尔玛，我变成这样，</p>
 <p>即不是因为对音乐绝望了，也不是因为对人生断了念头。</p>
 <p>没有结尾的小说太过无聊。靠着惯性持续的冗长故事一点也不美。</p>
@@ -130,76 +135,57 @@
 <p>那是只在夜晚闪耀的无谬之光。</p>
 <p>很浅很耀眼，淡淡的月光，完全无法想象。</p>
 
-              </div>
-              <div class="toc-container">
-                
-              </div>
-            </div>
-          </article>
+          </div>
         </div>
 
         
           <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://Yudukimeme.github.io/post/410/">
+            <a class="purple-link" href="https://Yudukimeme.github.io/post/410/">
               <h3 class="post-title">
-                4/10
+                下一篇：4/10
               </h3>
             </a>
           </div>
-        
+          
+      </div>
 
-        
+      
 
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://Yudukimeme.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
+      <div class="site-footer">
+  <div class="slogan">随便翻译一点东西</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://Yudukimeme.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
-      </div>
+
     </div>
+    <script type="application/javascript">
 
-    <script>
-      hljs.initHighlightingOnLoad()
+hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+</script>
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
   </body>
 </html>
