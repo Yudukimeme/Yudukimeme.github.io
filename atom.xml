@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Yudukimeme.github.io</id>
     <title>神谷家的汐月喵</title>
-    <updated>2021-07-08T07:35:24.253Z</updated>
+    <updated>2021-07-08T07:38:31.545Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Yudukimeme.github.io"/>
     <link rel="self" href="https://Yudukimeme.github.io/atom.xml"/>
@@ -10,4 +10,22 @@
     <logo>https://Yudukimeme.github.io/images/avatar.png</logo>
     <icon>https://Yudukimeme.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 神谷家的汐月喵</rights>
+    <entry>
+        <title type="html"><![CDATA[8/31]]></title>
+        <id>https://Yudukimeme.github.io/post/831/</id>
+        <link href="https://Yudukimeme.github.io/post/831/">
+        </link>
+        <updated>2019-07-09T07:36:27.000Z</updated>
+        <content type="html"><![CDATA[<p>墨水只剩下一点点了。</p>
+<p>我准备将旅途中写下的诗歌以及存下来的照片放入这个盒子中。</p>
+<p>每拍下这个城市的一处街角。总感觉有一股熟悉的气息。</p>
+<p>虽然我的拍照技术完全不行，但没拍糊的照片我还是洗了出来。</p>
+<p>艾尔玛，装在这个盒子里的诗歌以及曲子都是你的东西。</p>
+<p>所以随你处置。</p>
+<p>我一定也不需要了。</p>
+<p>到最后我还是这样。</p>
+<p>无论到哪我都是以自私自利的厌世者自居，心里只想着作品，沉迷艺术的丑陋怪物。</p>
+<p>对啊 最后我还是只有音乐......</p>
+]]></content>
+    </entry>
 </feed>
