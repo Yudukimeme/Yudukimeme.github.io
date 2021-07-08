@@ -4,126 +4,70 @@
     <meta charset="utf-8" >
 
 <title>8/31 | 神谷家的汐月喵</title>
-<meta name="description" content="随便翻译一点东西">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://Yudukimeme.github.io/favicon.ico?v=1625731560570">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://Yudukimeme.github.io/favicon.ico?v=1625731675490">
 <link rel="stylesheet" href="https://Yudukimeme.github.io/styles/main.css">
 
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
+
+    <meta name="description" content="墨水只剩下一点点了。
+我准备将旅途中写下的诗歌以及存下来的照片放入这个盒子中。
+每拍下这个城市的一处街角。总感觉有一股熟悉的气息。
+虽然我的拍照技术完全不行，但没拍糊的照片我还是洗了出来。
+艾尔玛，装在这个盒子里的诗歌以及曲子都是你的东西。..." />
+    <meta name="keywords" content="ナブナ,だから僕は音楽を辞めた,ヨルシカ" />
   </head>
   <body>
-  
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="https://Yudukimeme.github.io">神谷家的汐月喵</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://Yudukimeme.github.io">
+        <img src="https://Yudukimeme.github.io/images/avatar.png?v=1625731675490" class="site-logo">
+        <h1 class="site-title">神谷家的汐月喵</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
         
-          <li>
-            
-              <a href="/" class="menu">
-                首页
-              </a>
-            
-          </li>
+          <a href="/" class="site-nav">
+            首页
+          </a>
         
-          <li>
-            
-              <a href="/archives" class="menu">
-                归档
-              </a>
-            
-          </li>
+      
         
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
         
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
+      
         
-      </ul>
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
     </div>
   </div>
-</nav>
-
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <article class="article">
-            <h1>8/31</h1>
-            <p class="article-meta">
-              2019-07-09
-              
-                <a href="https://Yudukimeme.github.io/tag/VPQZSox42/" class="badge warning">
-                  ナブナ
-                </a>
-              
-                <a href="https://Yudukimeme.github.io/tag/EDgJ87ysU/" class="badge success">
-                  だから僕は音楽を辞めた
-                </a>
-              
-                <a href="https://Yudukimeme.github.io/tag/aYlMefY-5/" class="badge success">
-                  ヨルシカ
-                </a>
-              
-            </p>
-            
-            <div class="post-content">
-              <p>墨水只剩下一点点了。</p>
-<p>我准备将旅途中写下的诗歌以及存下来的照片放入这个盒子中。</p>
-<p>每拍下这个城市的一处街角。总感觉有一股熟悉的气息。</p>
-<p>虽然我的拍照技术完全不行，但没拍糊的照片我还是洗了出来。</p>
-<p>艾尔玛，装在这个盒子里的诗歌以及曲子都是你的东西。</p>
-<p>所以随你处置。</p>
-<p>我一定也不需要了。</p>
-<p>到最后我还是这样。</p>
-<p>无论到哪我都是以自私自利的厌世者自居，心里只想着作品，沉迷艺术的丑陋怪物。</p>
-<p>对啊 最后我还是只有音乐......</p>
-
-            </div>
-          </article>
-        </div>
-        <div class="paper" data-aos="fade-in">
-          
-        </div>
-        
-      </div>
-
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="https://Yudukimeme.github.io/images/avatar.png?v=1625731560570" class="no-responsive avatar">
-    <div class="text-muted">随便翻译一点东西</div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
     <div class="social-container">
       
         
@@ -137,118 +81,77 @@
         
       
     </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
+    <div class="site-description">
+      随便翻译一点东西
     </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="https://Yudukimeme.github.io/post/fan-yi-hou-ji/">翻译后记</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://Yudukimeme.github.io/post/8311/">8/31</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://Yudukimeme.github.io/post/410/">4/10</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://Yudukimeme.github.io/post/88/">8/8</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://Yudukimeme.github.io/post/56/">5/6</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://Yudukimeme.github.io/post/626/">6/26</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://Yudukimeme.github.io/post/529/">5/29</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://Yudukimeme.github.io/post/517/">5/17</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://Yudukimeme.github.io/post/713/">7/13</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://Yudukimeme.github.io/post/420/">4/20</a>
-            </li>
-          
-        
-          
-        
-          
-        
-      </ul>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://Yudukimeme.github.io/atom.xml" target="_blank">RSS</a>
     </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="https://Yudukimeme.github.io/tag/VPQZSox42/" class="badge ">
-          ナブナ
-        </a>
-      
-        <a href="https://Yudukimeme.github.io/tag/EDgJ87ysU/" class="badge warning">
-          だから僕は音楽を辞めた
-        </a>
-      
-        <a href="https://Yudukimeme.github.io/tag/aYlMefY-5/" class="badge secondary">
-          ヨルシカ
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://Yudukimeme.github.io/atom.xml" target="_blank">RSS</a>
   </div>
 </div>
 
 
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">8/31</h2>
+            <div class="post-date">2019-07-09</div>
+            
+            <div class="post-content" v-pre>
+              <p>墨水只剩下一点点了。</p>
+<p>我准备将旅途中写下的诗歌以及存下来的照片放入这个盒子中。</p>
+<p>每拍下这个城市的一处街角。总感觉有一股熟悉的气息。</p>
+<p>虽然我的拍照技术完全不行，但没拍糊的照片我还是洗了出来。</p>
+<p>艾尔玛，装在这个盒子里的诗歌以及曲子都是你的东西。</p>
+<p>所以随你处置。</p>
+<p>我一定也不需要了。</p>
+<p>到最后我还是这样。</p>
+<p>无论到哪我都是以自私自利的厌世者自居，心里只想着作品，沉迷艺术的丑陋怪物。</p>
+<p>对啊 最后我还是只有音乐......</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://Yudukimeme.github.io/tag/VPQZSox42/" class="tag">
+                    ナブナ
+                  </a>
+                
+                  <a href="https://Yudukimeme.github.io/tag/EDgJ87ysU/" class="tag">
+                    だから僕は音楽を辞めた
+                  </a>
+                
+                  <a href="https://Yudukimeme.github.io/tag/aYlMefY-5/" class="tag">
+                    ヨルシカ
+                  </a>
+                
+              </div>
+            
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
 <script type="application/javascript">
 
 AOS.init();
 
-hljs.initHighlightingOnLoad()
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
+
+
 
 
 
